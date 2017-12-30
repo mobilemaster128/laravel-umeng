@@ -24,7 +24,7 @@
 生成配置文件:
 
 ```php
-    php artisan vendor:publish   
+    php artisan vendor:publish --provider="Zzl\Umeng\UmengServiceProvider"  
 ```
 
 在配置文件umeng.php中填入appkey以及master_secret既可完成配置
