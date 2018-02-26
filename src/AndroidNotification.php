@@ -11,7 +11,7 @@ abstract class AndroidNotification extends UmengNotification {
 	protected $androidPayload = array(
 									"display_type"  =>  "notification",
 									"body"         	=>  array(
-															"ticker"       =>   NULL,
+															"ticker"       => NULL,
 															"title"        => NULL,
 															"text"         => NULL,
 															//"icon"       => "xx",
